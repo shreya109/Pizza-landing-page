@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: url('pizza-bg3.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin-top: -100px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 50px;
+    vertical-align: text-top;
+
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    margin-bottom: 40px;
+  }
+  
+  .menu-item img {
+    width: 50%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .menu-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-size: 18px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+
+  .sbtn {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+.sbtn:hover {
+    cursor: pointer;
+    
+} 
+ 
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
